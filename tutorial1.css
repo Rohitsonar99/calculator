@@ -1,0 +1,92 @@
+body{
+
+    padding: 0%;
+    margin: 0%;
+    line-height: 15px;
+    background-color: blueviolet;
+}
+
+.calci{
+
+    width: 500px;
+    padding-top:50%;
+    padding-bottom:50%;
+    position: absolute;
+    text-align:center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50px,-50px);
+    transition: 0.25px;
+   
+}
+
+#display{
+
+        border: none;
+        background: white;
+        border-radius: 30px;
+        width: 290px;
+        height: 50px;
+        font-size: 20;
+        font-family: sans-serif;
+        font-weight: 300;
+        width: 60;
+        margin: auto;
+        border: 1px solid wheat;
+        color: red;
+}
+
+.btnDesign{
+    width: 55px;
+    height: 55px;
+    padding-top: -1;
+    border: none;
+    background: white;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+
+}
+
+.operatordesign{
+    width: 55px;
+    height: 55px;
+    padding-top: -1;
+    border: none;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.operatordesign:hover{
+    background: white;
+}
+
+#zero{
+    width: 175px;
+    height: 55px;
+    padding-top: -1;
+    border: none;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5;
+}
+
+h1{
+    margin-top: 1080px;
+    margin-left: 180px;
+    font-size:45px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: blanchedalmond;
+
+}
